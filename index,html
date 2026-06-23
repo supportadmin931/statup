@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiddle Style Toy Shop</title>
+    
+    <!-- CSS File ko link kiya gaya hai -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Top Bar -->
+    <div class="top-bar">
+        <div>Welcome to our online store!</div>
+        <div>Currency: INR | Language: English</div>
+    </div>
+
+    <!-- 2. Header Area -->
+    <header>
+        <div class="logo">⭐ Kidd<span>le</span></div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for toys...">
+            <button>Search</button>
+        </div>
+        <div class="cart-info">📞 Customer Support: +91-9876543210</div>
+    </header>
+
+    <!-- 3. Navigation Menu -->
+    <div class="nav-menu">
+        <a href="#">Home</a>
+        <a href="#">Fashion</a>
+        <a href="#">Accessories</a>
+        <a href="#">Brands</a>
+        <a href="#">Specials</a>
+        <a href="#">Blog</a>
+    </div>
+
+    <!-- 4. Hero Banner Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Super Sale Up to 50% off</h2>
+            <h1>Baby & Kids <br> Toys Sale</h1>
+            <button class="btn-shop">SHOP NOW</button>
+        </div>
+        <div class="hero-image">
+            <span style="font-size: 180px;">🧒🧸</span>
+        </div>
+    </section>
+
+    <!-- 5. Category Icons -->
+    <section class="categories">
+        <div class="cat-item"><div class="cat-icon">🚲</div><p>Bicycle</p></div>
+        <div class="cat-item"><div class="cat-icon">🎎</div><p>Doll</p></div>
+        <div class="cat-item"><div class="cat-icon">🧸</div><p>Teddy Bear</p></div>
+        <div class="cat-item"><div class="cat-icon">🦆</div><p>Rubber Duck</p></div>
+        <div class="cat-item"><div class="cat-icon">✈️</div><p>Airplane</p></div>
+    </section>
+
+    <!-- 6. Featured Products Grid -->
+    <h2 class="section-title">Featured Products</h2>
+    <div class="products-grid">
+        
+        <!-- Product 1 -->
+        <div class="product-card">
+            <div class="badge">-10%</div>
+            <div class="badge-new">New</div>
+            <div class="product-img">🚲</div>
+            <h3 class="product-title">Trikes</h3>
+            <div class="stars">★★★★★</div>
+            <div class="price">₹1,299 <span class="old-price">₹1,450</span></div>
+            <button class="whatsapp-btn" onclick="sendWhatsApp('Trikes', '1299')">Order on WhatsApp</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <div class="badge">-15%</div>
+            <div class="product-img">🦸‍♂️</div>
+            <h3 class="product-title">Action Figures</h3>
+            <div class="stars">★★★★☆</div>
+            <div class="price">₹899 <span class="old-price">₹1050</span></div>
+            <button class="whatsapp-btn" onclick="sendWhatsApp('Action Figures', '899')">Order on WhatsApp</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <div class="badge-new">New</div>
+            <div class="product-img">🧩</div>
+            <h3 class="product-title">Sudoku Puzzles</h3>
+            <div class="stars">★★★★★</div>
+            <div class="price">₹499</div>
+            <button class="whatsapp-btn" onclick="sendWhatsApp('Sudoku Puzzles', '499')">Order on WhatsApp</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <div class="badge">-20%</div>
+            <div class="product-img">🧸</div>
+            <h3 class="product-title">Soft Teddy</h3>
+            <div class="stars">★★★★☆</div>
+            <div class="price">₹599 <span class="old-price">₹750</span></div>
+            <button class="whatsapp-btn" onclick="sendWhatsApp('Soft Teddy', '599')">Order on WhatsApp</button>
+        </div>
+
+    </div>
+
+    <!-- 7. Footer -->
+    <footer>
+        <div class="logo" style="margin-bottom: 10px;">⭐ Kidd<span>le</span></div>
+        <p class="footer-text">Address: Ahmedabad, Gujarat, India</p>
+        <p class="footer-text">Phone: +91-9876543210 | Email: shop@kiddle.com</p>
+        <p class="footer-text" style="margin-top: 20px;">&copy; 2026 Kiddle Store Theme Design.</p>
+    </footer>
+
+    <!-- JavaScript File ko link kiya gaya hai -->
+    <script src="script.js"></script>
+</body>
+</html>

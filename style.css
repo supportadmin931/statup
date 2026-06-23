@@ -1,0 +1,57 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Nunito', sans-serif; }
+body { background-color: #f8f9fa; color: #333; }
+
+/* Top Bar */
+.top-bar { background: #ffcb05; padding: 10px 20px; display: flex; justify-content: space-between; font-size: 14px; font-weight: bold; }
+
+/* Header / Navbar */
+header { display: flex; justify-content: space-between; align-items: center; padding: 20px 50px; background: white; flex-wrap: wrap; gap: 15px; }
+.logo { font-size: 32px; font-weight: 900; color: #40c4ff; }
+.logo span { color: #ff4081; }
+.search-bar { display: flex; flex: 1; max-width: 500px; margin: 0 20px; }
+.search-bar input { width: 100%; padding: 12px 20px; border: 2px solid #eee; border-radius: 30px 0 0 30px; outline: none; }
+.search-bar button { padding: 12px 25px; background: #40c4ff; color: white; border: none; border-radius: 0 30px 30px 0; cursor: pointer; font-weight: bold; }
+.cart-info { font-weight: bold; color: #ff4081; }
+
+/* Main Menu */
+.nav-menu { display: flex; justify-content: center; gap: 30px; padding: 15px; background: white; border-top: 1px solid #eee; border-bottom: 1px solid #eee; font-weight: bold; flex-wrap: wrap; }
+.nav-menu a { text-decoration: none; color: #333; text-transform: uppercase; font-size: 14px; }
+.nav-menu a:hover { color: #ff4081; }
+
+/* Hero Banner */
+.hero { background: linear-gradient(to right, #ff9a9e 0%, #fecfef 99%, #fecfef 100%); padding: 80px 50px; display: flex; align-items: center; justify-content: space-around; color: white; border-radius: 0 0 50px 50px; flex-wrap: wrap; }
+.hero-content h2 { font-size: 22px; margin-bottom: 10px; color: #fff; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); }
+.hero-content h1 { font-size: 55px; font-weight: 900; margin-bottom: 25px; line-height: 1.2; }
+.btn-shop { background: #40c4ff; color: white; padding: 15px 35px; text-decoration: none; border-radius: 30px; font-weight: bold; font-size: 16px; border: none; cursor: pointer; box-shadow: 0 4px 10px rgba(64, 196, 255, 0.4); }
+.btn-shop:hover { background: #00b0ff; }
+
+/* Category Icons */
+.categories { display: flex; justify-content: center; gap: 40px; padding: 50px 20px; flex-wrap: wrap; }
+.cat-item { text-align: center; cursor: pointer; }
+.cat-icon { width: 90px; height: 90px; background: white; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 40px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); margin-bottom: 15px; transition: 0.3s; }
+.cat-item:hover .cat-icon { transform: translateY(-10px); background: #ffcb05; }
+.cat-item p { font-weight: bold; font-size: 15px; }
+
+/* Featured Products */
+.section-title { text-align: center; margin: 40px 0 30px; font-size: 32px; font-weight: 900; }
+.products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 30px; padding: 0 50px 60px; max-width: 1200px; margin: 0 auto; }
+.product-card { background: white; border-radius: 20px; padding: 25px; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.04); position: relative; transition: 0.3s; border: 1px solid #f0f0f0; }
+.product-card:hover { box-shadow: 0 10px 25px rgba(0,0,0,0.1); transform: translateY(-5px); }
+.badge { position: absolute; top: 15px; left: 15px; background: #ffcb05; color: #333; padding: 5px 12px; border-radius: 5px; font-size: 12px; font-weight: bold; }
+.badge-new { background: #40c4ff; color: white; top: 15px; right: 15px; position: absolute; padding: 5px 12px; border-radius: 5px; font-size: 12px; font-weight: bold; }
+.product-img { font-size: 90px; margin: 20px 0; }
+.product-title { font-size: 18px; margin-bottom: 10px; color: #333; font-weight: 700; }
+.stars { color: #ffcb05; margin-bottom: 10px; font-size: 18px; }
+.price { font-size: 20px; font-weight: 900; color: #ff4081; margin-bottom: 20px; }
+.old-price { text-decoration: line-through; color: #aaa; font-size: 15px; margin-left: 8px; font-weight: normal; }
+
+/* WhatsApp Button */
+.whatsapp-btn { background: #25D366; color: white; border: none; padding: 12px 15px; width: 100%; border-radius: 30px; font-weight: bold; cursor: pointer; font-size: 15px; transition: 0.2s; }
+.whatsapp-btn:hover { background: #128C7E; }
+
+/* Footer */
+footer { background: white; padding: 50px; text-align: center; border-top: 2px solid #eee; margin-top: 20px; }
+.footer-text { color: #666; font-size: 14px; margin-top: 10px; }
